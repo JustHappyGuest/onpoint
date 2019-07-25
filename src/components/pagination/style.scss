@@ -1,0 +1,17 @@
+.pagination{
+  top: 46%;
+  right: 20px;
+  position: fixed;
+  z-index: 9999;
+  &__dot{
+    margin-bottom: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    transition: background-color 1s ease;
+    &-active{
+      background-color: #f78b1f;
+    }
+  }
+}

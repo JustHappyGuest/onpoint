@@ -1,0 +1,30 @@
+.main{
+  position: relative;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__title{
+    text-align: center;
+    font-family: "Gotham Pro";
+    font-weight: lighter;
+    font-size: 2.5rem;
+    color: #fff;
+    transition: all 1s ease-in;
+    line-height: 3rem;
+    &-parallax{
+      transform: translateY(-100%) !important;
+    }
+  }
+  &__ice{
+    position: absolute;
+    transition: all 1s ease-in;
+    transform: translateY(100%);
+    &-parallax{
+      transform: translateY(0) !important;
+    }
+  }
+}

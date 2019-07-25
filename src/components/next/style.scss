@@ -1,0 +1,19 @@
+.next{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  color: #fff;
+  transition: opacity 0.5s ease;
+  &__label{
+    position: absolute;
+    left:47%;
+    top:40px;
+  }
+  &__arrow{
+    margin: 10px 0;
+  }
+
+  &-hide{
+    opacity: 0;
+  }
+}
